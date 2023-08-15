@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="jupyter-quarto_vscode_binder-proxy",
+    name="vscode_binder_proxy",
     version='1.0',
     url="https://github.com/dragonstyle/vscode_binder_proxy/",
     author="Charles Teague",
@@ -14,7 +14,7 @@ setuptools.setup(
     ],
     entry_points={
         'jupyter_serverproxy_servers': [
-            'quarto_vscode_binder = vscode_binder_proxy:setup_quarto_vscode_binder',
+            'vscode = vscode_binder_proxy:setup_quarto_vscode_binder',
         ]
     },
     package_data={
